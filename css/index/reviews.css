@@ -1,0 +1,96 @@
+#reviews{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E7E7E7;
+    border-bottom: 2px solid black;
+}
+
+#reviews h2{
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#reviews p{
+    color: #000;
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#divfeedback{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#divfeedback div {
+    width: 803px;
+    height: 279px;
+    background: #DA1725;
+    border-radius: 10px;
+    display: grid;
+    align-items: start;
+    justify-items: start;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 50% 30%;
+}
+
+#divfeedback div span {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(255, 255, 255, 0.6);
+    grid-column-start: 2;
+}
+
+#divfeedback div h1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+#divfeedback div img {
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+}
+
+#divfeedback div p {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    align-self: start;
+    justify-self: start;
+    color: #FFFFFF;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+}

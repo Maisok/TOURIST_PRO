@@ -1,0 +1,175 @@
+#booking {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+#divbooking {
+    width: 1652px;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#contactinfo {
+    width: 534px;
+    height: 503px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 122px;
+}
+
+#contactinfo input {
+    width: 534px;
+    height: 84px;
+    border: 5px solid #DA1725;
+    border-radius: 10px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 69px;
+}
+
+#contactinfo h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin-bottom: 69px;
+}
+
+#contactinfo button {
+    width: 366.52px;
+    height: 84px;
+    left: 777px;
+    top: 1566px;
+    background: #DA1725;
+    border-radius: 10px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+#divbooking div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 90%;
+    row-gap: 40px;
+    column-gap: 31px;
+    align-items: center;
+    justify-items: center;
+}
+
+#bookingservices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bookinginfo h1 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+#divbooking h1:nth-child(1) {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    justify-self: start;
+}
+
+#divbooking h1:nth-child(2) {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    justify-self: end !important;
+}
+
+#bookinginfo {
+    width: 850px;
+    height: 600px;
+    left: 129px;
+    top: 425px;
+    background: #FFFFFF;
+    border: 5px solid #DA1725;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bookinginfo h1 {
+    margin-bottom: 40px;
+    margin-left: 44px;
+}
+
+#bookinginfo h1:last-child {
+    margin-bottom: 0px;
+    margin-left: 44px;
+}
+
+#bookingservices {
+    width: 771px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 5px solid #DA1725;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bookingservices label {
+    margin-bottom: 46px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin-right: 44px;
+}
+
+#bookingservices label:last-child {
+    margin: 0;
+    margin-right: 44px;
+}
+
+.custom {
+    width: 50px;
+    height: 50px;
+    margin-right: 31px;
+}
+

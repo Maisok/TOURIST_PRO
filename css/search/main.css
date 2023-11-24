@@ -1,0 +1,112 @@
+#search {
+    width: 100%;
+    height: 2150px;
+    border-bottom: 2px solid #000;
+    background: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search_comp {
+    width: 1644px;
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info h2 {
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background: #DA1725;
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 25% 50% 25%;
+    align-items: center;
+    justify-items: center;
+    padding-left: 2%;
+}
+
+.banner img {
+    width: 683px;
+    height: 456px;
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.banner h2 {
+    color: #FFF;
+    font-family: 'Calibri';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.banner p:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: #FFF;
+    font-family: 'Calibri';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner p:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #FFF;
+    font-family: 'Calibri';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner form {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+}
+
+.banner form button{
+    width: 377px;
+    height: 84px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

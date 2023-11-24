@@ -1,0 +1,128 @@
+#booking {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E7E7E7;
+    border-bottom: 2px solid black;
+}
+
+#booking h2 {
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#booking button {
+    width: 508px;
+    height: 84px;
+    border-radius: 10px;
+    background: #DA1725;
+    color: #FFF;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#control{
+    width: 100%;
+    height: 382px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tour{
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#tour h3{
+    color: #DA1725;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#tour div button{
+    width: 228px;
+height: 52px;
+color: #FFF;
+font-family: 'Calibri';
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#tour div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tour div span{
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#excursions{
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#excursions h3{
+    color: #DA1725;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#excursions div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#excursions div button{
+    width: 228px;
+height: 52px;
+color: #FFF;
+font-family: 'Calibri';
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#excursions div span{
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,68 @@
+#instructions{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E7E7E7;
+    border-bottom: 2px solid black;
+}
+
+#instructions h2{
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.divbooking {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bookinginfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bookinginfo h3 {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 117px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.bookinginfo div {
+    height: 325px;
+    width: 263px;
+    background: #DA1725;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.bookinginfo div a {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 250px;
+    text-decoration: none;
+    height: 126px;
+    margin-bottom: 10px;
+}

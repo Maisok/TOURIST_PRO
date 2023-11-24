@@ -1,0 +1,132 @@
+#seat {
+    width: 100%;
+    height: 1000px;
+    border-bottom: 1px solid black;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divseat {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 60% 30%;
+    align-items: center;
+    justify-items: center;
+}
+
+#seat h2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#seat form:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%;
+}
+
+#seat form:nth-child(2) label {
+    color: #000;
+    font-family: 'Calibri';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#seat form:nth-child(2) input {
+    transform: scale(1.9);
+    margin-right: 10px;
+}
+
+#seat #mapa{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seat #mapa img {  
+    height: 100%;
+}
+
+#seat form:last-child {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#seat form:last-child button {
+    width: 366.522px;
+    height: 84px;
+    border-radius: 10px;
+    background: #DA1725;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.dropdown{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid #DA1725;
+    bottom: 400px;
+    right: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+
+
+#first:hover~#dropdown1 {
+    display: flex;
+    position: absolute;
+}
+
+
+#second:hover~#dropdown2 {
+    opacity: 1;
+    display: flex;
+    position: absolute;
+}
+
+
+
+#third:hover~#dropdown3 {
+    opacity: 1;
+    display: flex;
+    position: absolute;
+}
+

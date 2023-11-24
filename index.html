@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-PRO</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index/header.css">
+    <link rel="stylesheet" href="css/index/action.css">
+    <link rel="stylesheet" href="css/index/search.css">
+    <link rel="stylesheet" href="css/index/booking.css">
+    <link rel="stylesheet" href="css/index/instructions.css">
+    <link rel="stylesheet" href="css/index/anim.css">
+    <link rel="stylesheet" href="css/index/reviews.css">
+    <link rel="stylesheet" href="css/index/newsletter.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="logotype">
+            <img src="images/logo.png" alt="Логотип">
+            <h1>Турист-PRO</h1>
+        </div>
+
+        <div id="navbar">
+            <a href="">Маршруты</a>
+            <a href="">Бронирование</a>
+            <a href="">Акции</a>
+            <a href="index.html">Главная</a>
+            <a href="">Личный кабинет</a>
+        </div>
+    </header>
+
+    <div id="action">
+        <h2>Акции</h2>
+        <div id="action_info">
+            <img src="images\river.jpg" alt="Горная река" width="50%">
+            <div id="action_text">
+                <h3>Покупай-отдыхай</h3>
+                <p>Совершите покупку на сумму более
+                    50.000 руб и выйграйте
+                    тур по горной реке
+                </p>
+                
+                    <button type="submit">Подробнее</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="search">
+        <h2>Поиск поездки</h2>
+        <div id="inputs">
+            <input type="text" title="Регион" placeholder="Выберите свой регион">
+            <input type="text" title="Дата" placeholder="Выберите дату">
+            <input type="text" title="Участники" placeholder="Количество участников">
+            <form action="html/search.html">
+                <button type="submit">Найти</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="booking">
+        <h2>Управление бронированием</h2>
+        <div id="control">
+            <div id="tour">
+                <h3>Туры:</h3>
+                <div><span>Пер. Каратюрек</span><button>Отменить</button></div>
+                <div><span>Долина Ярлу</span><button>Отменить</button></div>
+                <div><span>Ак. Ледник</span><button>Отменить</button></div>
+            </div>
+
+            <div id="excursions">
+                <h3>Экскурсии:</h3>
+                <div><span>Долина озер</span><button>Отменить</button></div>
+                <div><span>Гора Белуха</span><button>Отменить</button></div>
+                <div><span>Озеро духов</span><button>Отменить</button></div>
+            </div>
+        </div>
+        <button>Забронировать еще</button>
+    </div>
+
+    <div id="instructions">
+        <h2>Как забронировать поездку</h2>
+        <div class="divbooking">
+            <div class="bookinginfo">
+                <h3>1</h3>
+                <div>
+                    <a href="html/search.html">Выбрать интересующую вас поездку</a>
+                    <img src="images/emojihappy.png" alt="Смайлик" class="anim">
+                </div>
+            </div>
+
+            <div class="bookinginfo">
+                <h3>2</h3>
+                <div>
+                    <a>Оформить рассчет поездки</a>
+                    <img src="images/calc.png" alt="Калькулятор" class="anim1">
+                </div>
+            </div>
+
+            <div class="bookinginfo">
+                <h3>3</h3>
+                <div>
+                    <a href="html\booking.html">Забронировать и внести предоплату</a>
+                    <img src="images/cardtick.png" alt="Кардхолдер" class="anim2">
+                </div>
+            </div>
+
+            <div class="bookinginfo">
+                <h3>4</h3>
+                <div>
+                    <a>Ожидать дату поездки</a>
+                    <img src="images/time.png" alt="Часы" class="anim3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reviews">
+        <h2>Турист-PRO - исполнить мечты просто!</h2>
+        <div id="divfeedback">
+            <div>
+                <img src="images/ava1.png" alt="Аватарка">
+                <span>24.07.2023</span>
+                <h1>Maisok</h1>
+                <p id="animfeedback" class="animfeedback">Поездка прошла просто шикарно,<br> опытные экскурсоводы знают
+                    свое дело,<br> способы передвиждения тоже на
+                    высоте,<br> во время перерыва покормили очень вкусной едой. <br>В общем, всем рекомендую</p>
+            </div>
+
+            <div>
+                <img src="images/ava2.png" alt="Аватарка">
+                <span>24.07.2023</span>
+                <h1>Леха</h1>
+                <p id="animfeedback1" class="animfeedback">Учите JS, пацаны</p>
+            </div>
+        </div>
+        <p>Наша главная цель по отношению к нашим клиентам-это сделать любой поход удобным, комфортным и безопасным.
+            Можете нам полностью доверится. Мы вас ждем</p>
+    </div>
+
+    <div id="newsletter">
+        <h2>Рассылка акций</h2>
+        <div id="divmalling">
+            <input type="email" placeholder="Введите email">
+            <button>Подписаться</button>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="divfooter">
+            <ul>
+                <li><a href="">Маршруты</a></li>
+                <li><a href="">Бронирование</a></li>
+                <li><a href="">Акции</a></li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="">Личный кабинет</a></li>
+            </ul>
+
+            <div>8 (800) 555-33-10</div>
+        </div>
+    </footer>
+</body>
+
+</html>

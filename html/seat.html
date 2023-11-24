@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-PRO-выбор</title>
+    <link rel="stylesheet" href="/css/index/header.css">
+    <link rel="stylesheet" href="/css/index/footer.css">
+    <link rel="stylesheet" href="/css/seat/seat.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="logotype">
+            <img src="/images/logo.png" alt="Логотип">
+            <h1>Турист-PRO</h1>
+        </div>
+
+        <div id="navbar">
+            <a href="">Маршруты</a>
+            <a href="">Бронирование</a>
+            <a href="">Акции</a>
+            <a href="/index.html">Главная</a>
+            <a href="">Личный кабинет</a>
+        </div>
+    </header>
+
+    <section id="seat">
+        <div id="divseat">
+            <h2>Выберите места, которые хотите посетить</h2>
+            <form>
+                <label for="1">
+                    <input type="checkbox" name="1" class="custom">
+                    Долина Ярлу
+                </label>
+    
+                <label for="2">
+                    <input type="checkbox" name="2" class="custom">
+                    Озеро Аккмемское
+                </label>
+    
+                <label for="3">
+                    <input type="checkbox" name="3" class="custom">
+                    Долина Семи Озер
+                </label>
+            </form>
+    
+            <div id="mapa">
+                <img src="/images/route-2.png" alt="Карта" usemap="#tour">
+                <map name="tour">
+                    <area shape="circle" coords="50, 50, 50" title="Долина Ярлу" id="first">
+        
+                    <div id="dropdown1" class="dropdown">
+                        <p>Долина Ярлу находится на правом берегу реки Аккем, также ее хорошо видно при спуске с перевала
+                        Каратюрек.</p>
+                    </div>
+        
+                    <area shape="circle" coords="250, 600, 50" title=" Озеро Аккмемское" id="second">
+        
+                    <div id="dropdown2" class="dropdown">
+                        <p>Удивительное Аккемское озеро расположилось в живописных горах на Алтае у северного склона горы Белуха</p>
+                    </div>
+        
+                    <area shape="circle" coords="150, 850, 50" title="Долина Ярлу" id="third">
+        
+                    <div id="dropdown3" class="dropdown">
+                        <p>Долина семи озер – это небольшая территория Алтая в 10 км от горы Белухи. Здесь находится множество водопадов и озер</p>
+                    </div>
+            </div>
+    
+            <form action="booking.html" id="linkbtn">
+                <button type="submit" id="formbtn">Забронировать</button>
+            </form>
+        </div>
+
+        </map>
+
+    </section>
+
+    <footer id="footer">
+        <div id="divfooter">
+            <ul>
+                <li><a href="">Маршруты</a></li>
+                <li><a href="">Бронирование</a></li>
+                <li><a href="">Акции</a></li>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="">Личный кабинет</a></li>
+            </ul>
+
+            <div>8 (800) 555-33-10</div>
+        </div>
+    </footer>
+</body>
+
+</html>
